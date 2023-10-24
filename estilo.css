@@ -1,0 +1,1531 @@
+.card {
+  width: 190px;
+  height: 254px;
+  background: rgb(38, 38, 38);
+  box-shadow: 7px 5px 10px rgba(0, 0, 0, 0.333);
+}
+
+.imge {
+  height: 70px;
+  background-color: #ff5858;
+}
+
+.imge .Usericon img{
+  background-color: #414141;
+  transform: translateX(10px) translateY(10px);
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.imge .UserName {
+  background-color: #414141;
+  width: 60px;
+  height: 15px;
+  border-width: 10px;
+  border-radius: 5px;
+  border-color: #262626;
+  color: #262626;
+  font-size: 15px;
+  font-weight: bold;
+  transform: translateX(70px) translateY(-35px);
+}
+
+.imge .Id {
+  background-color: #414141;
+  width: 100px;
+  height: 15px;
+  border-width: 10px;
+  border-radius: 5px;
+  border-color: #262626;
+  color: #262626;
+  font-size: 15px;
+  font-weight: bold;
+  transform: translateX(70px) translateY(-25px);
+}
+
+.Description {
+  border-color: #141414;
+  background-color: #414141;
+  transform: translate(5px, 6px);
+  width: 180px;
+  height: 130px;
+  border-radius: 5px;
+}
+
+/*______Social Media______*/
+.social-media:before {
+  content: " ";
+  display: block;
+  width: 100%;
+  height: 2px;
+  transform: translatey(10px);
+  background: #414141;
+}
+
+.social-media a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.social-media a:last-child {
+  margin-right: 0;
+}
+
+.social-media a svg {
+  color: #ff5858;
+  transform: translatex(25px) translateY(20px);
+  width: 20px;
+  fill: currentColor;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.A{
+	text-align:center;
+}
+a.A1{
+  text-decoration:none;
+  margin-left:0.6%;
+  margin-right:0.6%;
+}
+
+
+
+.dropbtn {
+  background-color: transparent;
+  color: transparent;
+  padding: 2px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  min-width: 5px;
+  margin-bottom:4%;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+	border-radius:10px;
+  position: absolute;
+  background-color: #1C1C1C;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0);
+  z-index: 98;
+  max-height: 0;
+  min-width: 210px;
+  transition: max-height 0.75s ease-out;
+  overflow: hidden;
+}
+
+.hr{
+	color: black;
+	width: 100%;
+}
+
+.hrN{
+	color: black;
+	width: 75%;
+}
+
+.dropdown-content a {
+  color: #87CEFA;
+  background-color: #1C1C1C;
+  padding: 2px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #1C1C1C;
+}
+
+.dropdown:hover .dropdown-content {
+  max-height: 300px;
+  min-width: 210px;
+  transition: max-height 0.75s ease-in;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: transparent;
+  border-bottom: 1px solid ;
+  transition: max-height 0.25s ease-in;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.space{
+	margin-bottom:10%;
+}
+
+@media screen and (max-width: 900px) {
+.menu { width:100%; } 
+}
+
+@media screen and (max-width: 700px) {
+	.container {
+		display:block;
+		background-video:fundo.mp4;
+	}
+
+}
+
+@media screen and (max-width: 400px) {
+.menu { width:100%; } 
+}
+
+.principais{
+	font-family: Copperplate Gothic;
+	font-color: #87CEFA;
+	font-size:;
+}
+
+#Navbbbar{
+	font-family: Lucida Handwriting;
+	font-size:15px;
+	margin-left:50%;
+	color:#bfddf3;
+	text-align:;
+	text-shadow:black;
+}
+
+#TituloPrincipal{
+	font-family: ;
+	font-size:50px;
+	margin-left:;
+	color:#FA8072;
+	text-align:center;
+	text-shadow:black;
+	-webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+#Titulo1{
+	font-family: Lucida Handwriting;
+	font-size:28px;
+	margin-left:3%;
+	color:Yellow;
+	text-align:left;
+	text-shadow:black;
+}
+
+#TituloN{
+	font-family: Lucida Handwriting;
+	font-size:22px;
+	margin-left:3%;
+	color:#87CEEB;
+	text-align:center;
+	text-shadow:black;
+}
+
+#TituloN1{
+	font-family: Lucida Handwriting;
+	font-size:30px;
+	color:#87CEEB;
+	text-align:;
+	text-shadow:black;
+	 margin-right: 10%;
+	 margin-left: 15%;
+}
+
+#Paragrafonoticias{
+	font-family: Copperplate Gothic;
+	font-size:17px;
+	margin-left:5%;
+	margin-right:5%;
+	color:White;
+	text-align:center;
+	text-align: justify;
+	display:flex;
+}
+
+.imagemN{
+	width:30%;
+	height:30%;
+}
+
+.imagemN3 img{
+	width:30%;
+	height:30%;
+	margin-left: 3%;
+}
+
+.imagemN4 img{
+	width: 25%;
+	height: 25%;
+	margin-left: 3%;
+}
+
+#Tituloindex{
+	font-family: Lucida Handwriting;
+	font-size:30px;
+	margin-left:3%;
+	color:Yellow;
+	text-align:center;
+	text-shadow:black;
+}
+
+#Titulo2{
+	font-family: Lucida Handwriting;
+	font-size:25px;
+	margin-left:3%;
+	color:#87CEEB;
+	text-align:left;
+	text-shadow:black;
+}
+
+
+#Paragrafoindex{
+	font-family: Lucida Handwriting;
+	font-size:17px;
+	margin-left:0%;
+	color:white;
+	text-align:center;
+	text-shadow:black;
+}
+
+#Paragrafoindex2{
+	font-family:Lucida Handwriting;
+	font-size:12px;
+	margin-left:0%;
+	color:white;
+	text-align:center;
+	text-shadow:black;
+}
+
+#Paragrafosistemasolar{
+	font-family:;
+	font-size:17px;
+	margin-left:5%;
+	color:White;
+	text-align:left;
+	text-shadow:black;
+}
+
+
+
+#SubtituloAjuda2{
+	font-family: Lucida Handwriting;
+	font-size:25px;
+	margin-left:3%;
+	color:  #48D1CC;
+	text-align:left;
+	text-shadow:black;
+}
+#SubtituloAjuda{
+	font-family: Lucida Handwriting;
+	font-size:25px;
+	margin-left:3%;
+	color:  #7B68EE;
+	text-align:left;
+	text-shadow:black;
+}
+
+#ParagrafoAjuda{
+	font-family:Courier, monospace;
+	font-size:17px;
+	margin-left:5%;
+	color:white;
+	text-align:left;
+	text-shadow:black;
+}
+
+#PP{
+	font-family:;
+	font-size:;
+	margin-left:;
+	color:;
+}
+
+#ppp{
+	font-family:;
+	font-size:17px;
+	margin-left:5%;
+}
+
+
+#imagem{
+	width:150px;
+	height:200px;
+}
+
+#Footer{
+	font-family: Lucida Handwriting;
+	font-size:25px;
+	margin-left:;
+	color:#bfddf3;
+	text-align:center;
+	text-shadow:black;
+}
+
+#Footer2{
+	font-family: Lucida Handwriting;
+	font-size:25px;
+	margin-left:;
+	color:#bfddf3;
+	text-align:left;
+	text-shadow:black;
+}
+
+#Footer3{
+	font-family: Lucida Handwriting;
+	font-size:17px;
+	margin-left:;
+	color:white;
+	text-align:left;
+	text-shadow:black;
+}
+
+#Footer4{
+	font-family: Lucida Handwriting;
+	font-size:17px;
+	margin-left:;
+	color:white;
+	text-align:right;
+	text-shadow:black;
+}
+
+#video{
+	margin-left:5%;
+}
+
+#Venus{
+	margin-left:;
+	display:inline;
+}
+
+#TituloSalgado{
+	font-family:Brush Script MT, Brush Script Std, cursive;
+	font-size:35px;
+	margin-right:9.5%;
+	color:skyblue;
+	text-align:right;
+	text-shadow:black;
+}
+
+#ParagrafoSalgado{
+	font-family: Comic Sans MS;
+	font-size:17px;
+	margin-right:5%;
+	color:white;
+	text-align:right;
+	text-shadow:black;
+}
+
+#AssinaturaSalgado{
+	font-family:OCR A Std, monospace;
+	font-size:20px;
+	Margin-right:25%;
+	color:skyblue;
+	text-align:right;
+	text-shadow:black;
+}
+
+#Paragrafocriadores{
+	font-family:;
+	font-size:17px;
+	margin-left:5%;
+	color:White;
+	text-align:left;
+	text-shadow:black;
+}
+
+#TituloNicolly{
+	font-family:Gill Sans, sans-serif;
+	font-size:25px;
+	margin-left:8.5%;
+	color: #bfddf3;
+	text-align:left;
+	text-shadow:black;
+}
+
+#ParagrafoNicolly{
+	font-family: Comic Sans MS;
+	font-size:17px;
+	margin-left:5%;
+	color:White;
+	text-align:left;
+	text-shadow:black;
+}
+
+#AssinaturaNicolly{
+	font-family:cursive;
+	font-size:20px;
+	Margin-right:31%;
+	color:#DA70D6	;
+	text-align:left;
+	text-shadow:black;
+}
+
+#TituloLauane{
+	font-family:;
+	font-size:25px;
+	margin-right:10%;
+	color:white;
+	text-align:right;
+	text-shadow:black;
+}
+
+#ParagrafoLauane{
+	font-family: Comic Sans MS;
+	font-size:17px;
+	margin-right:5%;
+	color:White;
+	text-align:right;
+	text-shadow:black;
+}
+
+#AssinaturaLauane{
+	font-family:;
+	font-size:20px;
+	Margin-right:25%;
+	color:white;
+	text-align:right;
+	text-shadow:black;
+}
+
+#TituloNicolas{
+	font-family:;
+	font-size:25px;
+	margin-left:10.25%;
+	color:white;
+	text-align:left;
+	text-shadow:black;
+}
+
+#ParagrafoNicolas{
+	font-family: Comic Sans MS;
+	font-size:17px;
+	margin-left:5%;
+	color:White;
+	text-align:left;
+	text-shadow:black;
+}
+
+#AssinaturaNicolas{
+	font-family:;
+	font-size:20px;
+	Margin-right:31%;
+	color:white;
+	text-align:left;
+	text-shadow:black;
+}
+
+#Titulocriadores{
+	font-family: Lucida Handwriting;
+	font-size:25px;
+	margin-left:3%;
+	color:#bfddf3;
+	text-align:left;
+	text-shadow:black;
+}
+
+.text-sol{ 
+	font-family: Copperplate Gothic;
+	width: 100%;
+	height: 250px;
+	display: flex;
+}
+
+.imagem-sol{
+	max-width:120%;
+	max-height:120%;
+	display: flex;
+	justify-content: right;
+	margin-left:8%;
+}
+
+.imagem-sol img{
+	width:120%;
+	height:120%;
+	max-width:120%;
+	max-height:120%;
+}
+
+.text-insol{
+	width: 58.4%;
+	text-align: left;
+}
+
+.text-insol p{
+	font-family:;
+	font-size:17px;
+	margin-left:8.5%;
+	color:White;
+	text-align:left;
+	text-shadow:black;
+	text-align: justify;
+}
+
+
+
+
+.text-mercurio{
+	font-family: Copperplate Gothic;
+	width: 100%;
+	height: 250px;
+	display: flex;
+}
+
+.imagem-mercurio{
+	max-width:120%;
+	max-height:120%;
+	display: flex;
+	justify-content: right;
+	margin-left:13%;
+}
+
+.imagem-mercurio img{
+	width:120%;
+	height:120%;
+	max-width:120%;
+	max-height:120%;
+}
+
+.text-inmercurio{
+	width: 52%;
+	text-align: left;
+}
+
+.text-inmercurio p{
+	font-family:;
+	font-size:17px;
+	margin-left:8.5%;
+	color:White;
+	text-align:left;
+	text-shadow:black;
+	text-align: justify;
+}
+
+
+
+
+
+.text-venus{
+	font-family: Copperplate Gothic;
+	width: 100%;
+	height: 250px;
+	display: flex;
+}
+
+.imagem-venus{
+	max-width:120%;
+	max-height:120%;
+	display: flex;
+	justify-content: right;
+	margin-left:5%;
+}
+
+.imagem-venus img{
+	width:120%;
+	height:120%;
+	max-width:120%;
+	max-height:120%;
+}
+
+.text-invenus{
+	width: 60%;
+	text-align: left;
+}
+
+.text-invenus p{
+	font-family:;
+	font-size:17px;
+	margin-left:8.5%;
+	color:White;
+	text-align:left;
+	text-shadow:black;
+	text-align: justify;
+}
+
+
+
+
+
+.text-terra{
+	font-family: Copperplate Gothic;
+	width: 100%;
+	height: 250px;
+	display: flex;
+}
+
+.imagem-terra{
+	max-width:120%;
+	max-height:120%;
+	display: flex;
+	justify-content: right;
+	margin-left:5%;
+}
+
+.imagem-terra img{
+	width:120%;
+	height:120%;
+	max-width:120%;
+	max-height:120%;
+}
+
+.text-interra{
+	width: 60%;
+	text-align: left;
+}
+
+.text-interra p{
+	font-family:;
+	font-size:17px;
+	margin-left:8.5%;
+	color:White;
+	text-align:left;
+	text-shadow:black;
+	text-align: justify;
+}
+
+
+.text-lua{
+	font-family: Copperplate Gothic;
+	width: 100%;
+	height: 250px;
+	display: flex;
+}
+
+.imagem-lua{
+	max-width:120%;
+	max-height:120%;
+	display: flex;
+	justify-content: right;
+	margin-left:7%;
+}
+
+.imagem-lua img{
+	width:165%;
+	height:120%;
+	max-width:180%;
+	max-height:130%;
+}
+
+.text-inlua{
+	width: 58%;
+	text-align: left;
+}
+
+.text-inlua p{
+	font-family:;
+	font-size:17px;
+	margin-left:8.5%;
+	color:White;
+	text-align:left;
+	text-shadow:black;
+	text-align: justify;
+}
+
+
+
+.text-marte{
+	font-family: Copperplate Gothic;
+	width: 100%;
+	height: 250px;
+	display: flex;
+}
+
+.imagem-marte{
+	max-width:120%;
+	max-height:120%;
+	display: flex;
+	justify-content: right;
+	margin-left:5%;
+}
+
+.imagem-marte img{
+	width:120%;
+	height:120%;
+	max-width:120%;
+	max-height:120%;
+}
+
+.text-inmarte{
+	width: 60%;
+	text-align: left;
+}
+
+.text-inmarte p{
+	font-family:;
+	font-size:17px;
+	margin-left:8.5%;
+	color:White;
+	text-align:left;
+	text-shadow:black;
+	text-align: justify;
+}
+
+
+
+
+
+.text-jupiter{
+	font-family: Copperplate Gothic;
+	width: 100%;
+	height: 250px;
+	display: flex;
+}
+
+.imagem-jupiter{
+	max-width:120%;
+	max-height:120%;
+	display: flex;
+	justify-content: right;
+	margin-left:7%;
+}
+
+.imagem-jupiter img{
+	width:175%;
+	height:120%;
+	max-width:175%;
+	max-height:120%;
+}
+
+.text-injupiter{
+	width: 58%;
+	text-align: left;
+}
+
+.text-injupiter p{
+	font-family:;
+	font-size:17px;
+	margin-left:8.5%;
+	color:White;
+	text-align:left;
+	text-shadow:black;
+	text-align: justify;
+}
+
+
+
+
+
+.text-saturno{
+	font-family: Copperplate Gothic;
+	width: 100%;
+	height: 250px;
+	display: flex;
+}
+
+.imagem-saturno{
+	max-width:120%;
+	max-height:120%;
+	display: flex;
+	justify-content: right;
+	margin-left:7%;
+}
+
+.imagem-saturno img{
+	width:170%;
+	height:120%;
+	max-width:175%;
+	max-height:120%;
+}
+
+.text-insaturno{
+	width: 58%;
+	text-align: left;
+}
+
+.text-insaturno p{
+	font-family:;
+	font-size:17px;
+	margin-left:8.5%;
+	color:White;
+	text-align:left;
+	text-shadow:black;
+	text-align: justify;
+}
+
+
+
+
+
+.text-urano{
+	font-family: Copperplate Gothic;
+	width: 100%;
+	height: 250px;
+	display: flex;
+}
+
+.imagem-urano{
+	max-width:120%;
+	max-height:120%;
+	display: flex;
+	justify-content: right;
+	margin-left:11%;
+}
+
+.imagem-urano img{
+	width:120%;
+	height:120%;
+	max-width:120%;
+	max-height:120%;
+}
+
+.text-inurano{
+	width: 54%;
+	text-align: left;
+}
+
+.text-inurano p{
+	font-family:;
+	font-size:17px;
+	margin-left:8.5%;
+	color:White;
+	text-align:left;
+	text-shadow:black;
+	text-align: justify;
+}
+
+
+
+
+
+.text-netuno{
+	font-family: Copperplate Gothic;
+	width: 100%;
+	height: 250px;
+	display: flex;
+}
+
+.imagem-netuno{
+	max-width:120%;
+	max-height:120%;
+	display: flex;
+	justify-content: right;
+	margin-left:11%;
+}
+
+.imagem-netuno img{
+	width:120%;
+	height:120%;
+	max-width:120%;
+	max-height:120%;
+}
+
+.text-innetuno{
+	width: 54%;
+	text-align: left;
+}
+
+.text-innetuno p{
+	font-family:;
+	font-size:17px;
+	margin-left:8.5%;
+	color:White;
+	text-align:left;
+	text-shadow:black;
+	text-align: justify;
+}
+
+
+
+
+
+.text-plutao{
+	font-family: Copperplate Gothic;
+	width: 100%;
+	height: 250px;
+	display: flex;
+}
+
+.imagem-plutao{
+	max-width:120%;
+	max-height:120%;
+	display: flex;
+	justify-content: right;
+	margin-left:11%;
+}
+
+.imagem-plutao img{
+	width:180%;
+	height:120%;
+	max-width:180%;
+	max-height:120%;
+}
+
+.text-inplutao{
+	width: 58%;
+	text-align: left;
+}
+
+.text-inplutao p{
+	font-family:;
+	font-size:17px;
+	margin-left:8.5%;
+	color:White;
+	text-align:left;
+	text-shadow:black;
+	text-align: justify;
+}
+
+
+
+
+
+.text-asteroides{
+	font-family: Copperplate Gothic;
+	width: 100%;
+	height: 250px;
+	display: flex;
+}
+
+.imagem-asteroides{
+	max-width:120%;
+	max-height:120%;
+	display: flex;
+	justify-content: right;
+	margin-left:10%;
+}
+
+.imagem-asteroides img{
+	width:125%;
+	height:95%;
+	max-width:150%;
+	max-height:120%;
+}    
+
+.text-inasteroides{
+	width: 75%;
+	text-align: left;
+}
+
+.text-inasteroides p{
+	font-family:;
+	font-size:17px;
+	margin-left:8.5%;
+	color:White;
+	text-align:left;
+	text-shadow:black;
+	text-align: justify;
+}
+
+
+
+
+
+.text-cometas{
+	font-family: Copperplate Gothic;
+	width: 100%;
+	height: 250px;
+	display: flex;
+}
+
+.imagem-cometas{
+	max-width:112%;
+	max-height:112%;
+	display: flex;
+	justify-content: right;
+	margin-left:10%;
+}
+
+.imagem-cometas img{
+	width:119%;
+	height:119%;
+	max-width:112%;
+	max-height:112%;
+}
+
+.text-incometas{
+	width: 58.4%;
+	text-align: left;
+}
+
+.text-incometas p{
+	font-family:;
+	font-size:17px;
+	margin-left:8.5%;
+	color:White;
+	text-align:left;
+	text-shadow:black;
+	text-align: justify;
+}
+
+
+
+
+
+.text-mmm{
+	font-family: Copperplate Gothic;
+	width: 100%;
+	height: 250px;
+	display: flex;
+}
+
+.imagem-mmm{
+	max-width:130%;
+	max-height:130%;
+	display: flex;
+	justify-content: right;
+	margin-left:10%;
+}
+
+.imagem-mmm img{
+	width:130%;
+	height:130%;
+	max-width:130%;
+	max-height:130%;
+}
+
+.text-inmmm{
+	width: 58.5%;
+	text-align: left;
+}
+
+.text-inmmm p{
+	font-family:;
+	font-size:17px;
+	margin-left:8.5%;
+	color:White;
+	text-align:left;
+	text-shadow:black;
+	text-align: justify;
+}
+
+.Navbar{
+    font-family: Copperplate Gothic;
+	color:#FF8C00;
+	margin-left:27%;
+	margin-right:20%;
+}
+
+.Navbar-atual{
+	font-family:Copperlate Gothic;
+	color:#C8A2C8;
+	margin-left:29%;
+}
+
+.cardinicio{
+	background-color:white;
+	width:800px;
+	height:500px;
+}
+
+.cardinicio2{
+	background-color:white;
+	width:800px;
+	height:950px;
+}
+
+.cardinicio3{
+	background-color:white;
+	width:800px;
+	height:1050px;
+}
+
+.imagemcard2{
+	width: 100%;
+	height: 65%;
+	display: flex;
+	display: flex;
+	justify-content: center;
+}
+
+.polaroid{
+	font-family:Copperplate Gothic;
+}
+
+.textocard{
+	font-family:Lucida Handwriting;
+	font-size:25px;
+	color: Yellow;
+	text-align:center;
+}
+
+.imagemcard{
+	width: 100%;
+	height: 65%;
+	display: flex;
+	display: flex;
+	justify-content: center;
+}
+
+.text-curiosidades{
+	font-family: Copperplate Gothic;
+	width: 100%;
+	height: 250px;
+	display: flex;
+}
+
+.text-incuriosidades{
+	width: 60%;
+	text-align: left;
+}
+
+.text-CC{
+	font-family: Copperplate Gothic;
+	width: 100%;
+	height: 250px;
+	display: flex;
+}
+
+.text-inCC{
+	width: 60%;
+	text-align: left;
+}
+
+.text-inCC p{
+	font-family:;
+	font-size:17px;
+	margin-left:8.5%;
+	color:White;
+	text-align:left;
+	text-shadow:black;
+	text-align: justify;
+}
+
+    .container {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .form {
+      width: 400%;
+	  height:400% ;
+      padding: 20px;
+	}
+	
+	.Copyright{
+		text-align:center;
+	}
+	
+#Titulouniverso{
+	font-family: Lucida Handwriting;
+	font-size:30px;
+	margin-left:8.5%;
+	color:Yellow;
+	text-align:left;
+	text-shadow:black;
+}
+	
+	.text-universo{ 
+	font-family: Copperplate Gothic;
+	width: 100%;
+	height: 250px;
+	display: flex;
+}
+
+.text-inuniverso{
+	width: 65%;
+	text-align: left;
+}
+
+.text-inuniverso p{
+	font-family:;
+	font-size:19px;
+	margin-left:8.5%;
+	color:White;
+	text-align:left;
+	text-shadow:black;
+	text-align: justify;
+}
+
+.img-universo{
+	width: 40%;
+	height: 275%;
+	display: flex;
+	justify-content: right;
+	margin-top:14%;
+	margin-right:5%;
+}
+
+.img-universo img{
+	width: 80%;
+	height: 100%;
+}
+
+.img-multiverso{
+	width: 40%;
+	height: 75%;
+	display: flex;
+	justify-content: right;
+	margin-top:14%;
+	margin-right:5%;
+}
+
+.img-multiverso img{
+	width: 80%;
+	height: 100%;
+}
+
+#fontform{
+	font-family:Lucida Handwriting;
+	font-size:33px;
+	text-align: Center;
+	color: #7B68EE;
+}
+
+#fontform2{
+	text-align: Center;
+	color:#FFFAFA;
+	font-size:17px;
+}
+
+#nome{
+		margin-left:25%; 
+		width:50%;
+		height:55% ;
+		border-radius: 10px;
+		border-color:#7B68EE;
+		border-width:3px;
+	}
+	
+	#email{
+		margin-left:25%;                                                                    
+		width:50%;
+		height:55% ;
+		border-radius: 10px;
+		border-color:#7B68EE	;
+		border-width:3px;
+	}
+	
+	#mensagem{
+		margin-left:25%; 
+		width:50%;
+		height:55% ;
+		border-radius: 10px;
+		border-color:#7B68EE	;
+		border-width:3px;
+	}
+	
+	#Enviar{
+		margin-left:25%; 
+		border-radius: 10px;
+		border-color:#7B68EE	;
+		border-width:3px;
+	}
+	
+	#Limpar{
+		border-radius: 10px;
+		border-color:#7B68EE	;
+		border-width:3px;
+	}
+	
+	#audio1{
+		margin-left:68.55%;
+	}
+	#audio2{
+		margin-left:68%;
+	}
+	#audio3{
+		margin-left:68%;
+	}
+	#audio4{
+		margin-left:68%;
+	}
+	#audio5{
+		margin-left:68%;
+	}
+	#audio6{
+		margin-left:68%;
+	}
+	#audio7{
+		margin-left:68%;
+	}
+	#audio8{
+		margin-left:68%;
+	}
+	#audio9{
+		margin-left:68%;
+	}
+	#audio10{
+		margin-left:68%;
+	}
+	#audio11{
+		margin-left:68%;
+	}
+	
+#corposcelestes{
+	font-family:Lucida Handwriting;
+	font-size:25px;
+	margin-left:3%;
+	color: #7B68EE;
+	text-align:left;
+	text-shadow:black;
+}
+
+.btn1{
+    border: solid 2px #B22222;
+    border-radius: 7px;
+    color: #B22222;
+    background-color: transparent;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+	font-family:Copperplate Gothic;
+	font-size:17px;
+}
+.btn1:hover{
+    background-color: #B22222;
+    color: black;
+	font-family:Copperplate Gothic;
+	font-size:17px;
+}
+
+.btn2{
+    border: solid 2px #DAA520;
+    border-radius: 7px;
+    color: #DAA520;
+    background-color: transparent;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+	font-family:Copperplate Gothic;
+	font-size:17px;
+}
+.btn2:hover{
+    background-color: #DAA520;
+    color: black;
+	font-family:Copperplate Gothic;
+	font-size:17px;
+}
+
+.btn3{
+    border: solid 2px #00FF7F	;
+    border-radius: 7px;
+    color: #00FF7F	;
+    background-color: transparent;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+	font-family:Copperplate Gothic;
+	font-size:17px;
+}
+.btn3:hover{
+    background-color: #00FF7F	;
+    color: black;
+	font-family:Copperplate Gothic;
+	font-size:17px;
+}
+
+.text-OSSU{
+	font-family: Copperplate Gothic;
+	width: 100%;
+	height: 250px;
+	display: flex;
+}
+
+
+.text-inOSSU{
+	width: 58.5%;
+	text-align: left;
+}
+
+.text-inOSSU p{
+	font-family:;
+	font-size:17px;
+	margin-left:8.5%;
+	color:White;
+	text-align:left;
+	text-shadow:black;
+	text-align: justify;
+}
+
+.imagem-curiosidade{
+	width: 30%;
+	height: 120%;
+	display: flex;
+	justify-content: right;
+	margin-left:10.2%;
+}
+
+.imagem-curiosidade img{
+	width: 150%;
+	height: 100%;
+}
+
+.referencia{
+	margin-left:75%;
+}
+
+.referencia2{
+	margin-left:8%;
+}
+
+.footer{
+	background-color: #363636;
+	width: 100%;
+	height: 360px;
+	position: absolute;
+	left: 0;
+	margin-bottom: 50%;
+}
+.dfooter1{
+	font-family: Lucida Handwriting;
+	font-size: 25px;
+	color: #87CEFA;
+	text-align: center;
+	margin-top: 3%;
+}
+.dfooter2{
+	font-family: Lucida Handwriting;
+	text-align: left;
+	width: 50%;
+	display: flex;
+	margin-left: 8%;
+	text-align: justify;
+  float: left;
+  padding: %;
+  background: ;
+  color: #fff;
+}
+
+.dfooter3{
+	text-align: right;
+	margin-right: 18%;
+	
+}
+	
+
+.cfooter{
+	text-align: center;
+	background-color: #1C1C1C;
+	width: 100%;
+	height: 55px;
+	position: absolute;
+	left: 0;
+}
+
+.table{
+	margin-left: 8%;
+}
+
+.imgN{
+	display: flex;
+	margin-left: 5%;
+	margin-right: 5%;
+	align: left;
+}
